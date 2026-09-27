@@ -1,0 +1,51 @@
+Running `(cd /Users/ishu/.pub-cache/hosted/pub.dev/objective_c-9.5.0/; TMPDIR=/var/folders/6t/66dg919x3579cm_lwxlfs0pw0000gn/T/ PATH=/Users/ishu/.gemini/antigravity-cli/bin:/Users/ishu/Documents:/Users/ishu/Documents:/Users/ishu/.antigravity-ide/antigravity-ide/bin:/opt/homebrew/lib/ruby/gems/4.0.0/bin:/opt/homebrew/opt/ruby/bin:/Users/ishu/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand:/Users/ishu/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli:/Users/ishu/Documents:/opt/homebrew/bin:/opt/homebrew/sbin:/Library/Frameworks/Python.framework/Versions/3.14/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Users/ishu/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand:/Users/ishu/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli:/Users/ishu/Desktop/flutter/bin/:/Users/ishu/Documents:/Users/ishu/.antigravity-ide/antigravity-ide/bin:/opt/homebrew/lib/ruby/gems/4.0.0/bin:/opt/homebrew/opt/ruby/bin:/Users/ishu/Desktop/flutter/bin:/Users/ishu/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts:/Users/ishu/Desktop/flutter/bin HOME=/Users/ishu /Users/ishu/Desktop/flutter/bin/cache/dart-sdk/bin/dart --packages=/Users/ishu/Desktop/jarvis/flutter/.dart_tool/package_config.json /Users/ishu/Desktop/jarvis/flutter/.dart_tool/hooks_runner/objective_c/de310349bc/hook.dill --config=/Users/ishu/Desktop/jarvis/flutter/.dart_tool/hooks_runner/objective_c/de310349bc/input.json )`.
+INFO: 2026-09-14 23:24:21.673208: Using compiler /Library/Developer/CommandLineTools/usr/bin/clang from BuildInput.cCompiler.cc.
+
+INFO: 2026-09-14 23:24:21.675945: Running: /Library/Developer/CommandLineTools/usr/bin/clang -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -target arm64-apple-darwin -mmacos-version-min=13 -c /Users/ishu/.pub-cache/hosted/pub.dev/objective_c-9.5.0/src/include/dart_api_dl.c -fpic -gline-tables-only -I src -o /Users/ishu/Desktop/jarvis/flutter/.dart_tool/hooks_runner/shared/objective_c/build/de310349bc/obj/src/include/dart_api_dl.c.o
+
+INFO: 2026-09-14 23:24:21.676862: Running: /Library/Developer/CommandLineTools/usr/bin/clang -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -target arm64-apple-darwin -mmacos-version-min=13 -c /Users/ishu/.pub-cache/hosted/pub.dev/objective_c-9.5.0/src/objective_c.c -fpic -gline-tables-only -I src -o /Users/ishu/Desktop/jarvis/flutter/.dart_tool/hooks_runner/shared/objective_c/build/de310349bc/obj/src/objective_c.c.o
+
+INFO: 2026-09-14 23:24:21.676978: Running: /Library/Developer/CommandLineTools/usr/bin/clang -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -target arm64-apple-darwin -mmacos-version-min=13 -x objective-c -fobjc-arc -c /Users/ishu/.pub-cache/hosted/pub.dev/objective_c-9.5.0/src/input_stream_adapter.m -fpic -gline-tables-only -I src -o /Users/ishu/Desktop/jarvis/flutter/.dart_tool/hooks_runner/shared/objective_c/build/de310349bc/obj/src/input_stream_adapter.m.o
+
+INFO: 2026-09-14 23:24:21.677056: Running: /Library/Developer/CommandLineTools/usr/bin/clang -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -target arm64-apple-darwin -mmacos-version-min=13 -x objective-c -fobjc-arc -c /Users/ishu/.pub-cache/hosted/pub.dev/objective_c-9.5.0/src/objective_c.m -fpic -gline-tables-only -I src -o /Users/ishu/Desktop/jarvis/flutter/.dart_tool/hooks_runner/shared/objective_c/build/de310349bc/obj/src/objective_c.m.o
+
+INFO: 2026-09-14 23:24:21.677131: Running: /Library/Developer/CommandLineTools/usr/bin/clang -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -target arm64-apple-darwin -mmacos-version-min=13 -x objective-c -fobjc-arc -c /Users/ishu/.pub-cache/hosted/pub.dev/objective_c-9.5.0/src/observer.m -fpic -gline-tables-only -I src -o /Users/ishu/Desktop/jarvis/flutter/.dart_tool/hooks_runner/shared/objective_c/build/de310349bc/obj/src/observer.m.o
+
+INFO: 2026-09-14 23:24:21.677273: Running: /Library/Developer/CommandLineTools/usr/bin/clang -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -target arm64-apple-darwin -mmacos-version-min=13 -x objective-c -fobjc-arc -c /Users/ishu/.pub-cache/hosted/pub.dev/objective_c-9.5.0/src/protocol.m -fpic -gline-tables-only -I src -o /Users/ishu/Desktop/jarvis/flutter/.dart_tool/hooks_runner/shared/objective_c/build/de310349bc/obj/src/protocol.m.o
+
+
+
+INFO: 2026-09-14 23:24:21.677345: Running: /Library/Developer/CommandLineTools/usr/bin/clang -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -target arm64-apple-darwin -mmacos-version-min=13 -x objective-c -fobjc-arc -c /Users/ishu/.pub-cache/hosted/pub.dev/objective_c-9.5.0/src/objective_c_bindings_generated.m -fpic -gline-tables-only -I src -o /Users/ishu/Desktop/jarvis/flutter/.dart_tool/hooks_runner/shared/objective_c/build/de310349bc/obj/src/objective_c_bindings_generated.m.o
+
+INFO: 2026-09-14 23:24:21.872496: Generated /Users/ishu/Desktop/jarvis/flutter/.dart_tool/hooks_runner/shared/objective_c/build/de310349bc/obj/src/objective_c.c.o
+
+INFO: 2026-09-14 23:24:21.872749: 
+INFO: 2026-09-14 23:24:21.872771: 
+INFO: 2026-09-14 23:24:21.872781: Generated /Users/ishu/Desktop/jarvis/flutter/.dart_tool/hooks_runner/shared/objective_c/build/de310349bc/obj/src/include/dart_api_dl.c.o
+
+INFO: 2026-09-14 23:24:21.874806: 
+INFO: 2026-09-14 23:24:21.874840: 
+INFO: 2026-09-14 23:24:21.874875: Generated /Users/ishu/Desktop/jarvis/flutter/.dart_tool/hooks_runner/shared/objective_c/build/de310349bc/obj/src/observer.m.o
+
+INFO: 2026-09-14 23:24:21.876991: 
+INFO: 2026-09-14 23:24:21.877018: 
+INFO: 2026-09-14 23:24:21.877028: Generated /Users/ishu/Desktop/jarvis/flutter/.dart_tool/hooks_runner/shared/objective_c/build/de310349bc/obj/src/protocol.m.o
+
+INFO: 2026-09-14 23:24:22.066600: 
+INFO: 2026-09-14 23:24:22.066640: 
+INFO: 2026-09-14 23:24:22.066650: Generated /Users/ishu/Desktop/jarvis/flutter/.dart_tool/hooks_runner/shared/objective_c/build/de310349bc/obj/src/ns_number.m.o
+
+INFO: 2026-09-14 23:24:22.074799: 
+INFO: 2026-09-14 23:24:22.074845: 
+INFO: 2026-09-14 23:24:22.074854: Generated /Users/ishu/Desktop/jarvis/flutter/.dart_tool/hooks_runner/shared/objective_c/build/de310349bc/obj/src/input_stream_adapter.m.o
+
+INFO: 2026-09-14 23:24:22.098764: 
+INFO: 2026-09-14 23:24:22.098796: 
+INFO: 2026-09-14 23:24:22.098806: Generated /Users/ishu/Desktop/jarvis/flutter/.dart_tool/hooks_runner/shared/objective_c/build/de310349bc/obj/src/objective_c_bindings_generated.m.o
+
+INFO: 2026-09-14 23:24:22.099104: Running: /Library/Developer/CommandLineTools/usr/bin/clang -shared -Wl,-encryptable -undefined dynamic_lookup -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -target arm64-apple-darwin -mmacos-version-min=13 /Users/ishu/Desktop/jarvis/flutter/.dart_tool/hooks_runner/shared/objective_c/build/de310349bc/obj/src/include/dart_api_dl.c.o /Users/ishu/Desktop/jarvis/flutter/.dart_tool/hooks_runner/shared/objective_c/build/de310349bc/obj/src/objective_c.c.o /Users/ishu/Desktop/jarvis/flutter/.dart_tool/hooks_runner/shared/objective_c/build/de310349bc/obj/src/input_stream_adapter.m.o /Users/ishu/Desktop/jarvis/flutter/.dart_tool/hooks_runner/shared/objective_c/build/de310349bc/obj/src/objective_c.m.o /Users/ishu/Desktop/jarvis/flutter/.dart_tool/hooks_runner/shared/objective_c/build/de310349bc/obj/src/observer.m.o /Users/ishu/Desktop/jarvis/flutter/.dart_tool/hooks_runner/shared/objective_c/build/de310349bc/obj/src/ns_number.m.o /Users/ishu/Desktop/jarvis/flutter/.dart_tool/hooks_runner/shared/objective_c/build/de310349bc/obj/src/protocol.m.o /Users/ishu/Desktop/jarvis/flutter/.dart_tool/hooks_runner/shared/objective_c/build/de310349bc/obj/src/objective_c_bindings_generated.m.o -o /Users/ishu/Desktop/jarvis/flutter/.dart_tool/hooks_runner/shared/objective_c/build/de310349bc/objective_c.dylib
+
+INFO: 2026-09-14 23:24:22.247438: 
+INFO: 2026-09-14 23:24:22.247502: 
+INFO: 2026-09-14 23:24:22.247512: Generated /Users/ishu/Desktop/jarvis/flutter/.dart_tool/hooks_runner/shared/objective_c/build/de310349bc/objective_c.dylib
+

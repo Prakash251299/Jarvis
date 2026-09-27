@@ -1,0 +1,65 @@
+version: '3.9'
+
+services:
+  # Ollama LLM server
+  ollama:
+    image: ollama/ollama:latest
+    container_name: jarvis-ollama
+    restart: unless-stopped
+    volumes:
+      - ollama_data:/root/.ollama
+    ports:
+      - "11434:11434"
+    environment:
+      - OLLAMA_KEEP_ALIVE=24h
+    # GPU support (uncomment if you have NVIDIA GPU)
+    # deploy:
+    #   resources:
+    #     reservations:
+    #       devices:
+    #         - driver: nvidia
+    #           count: all
+    #           capabilities: [gpu]
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:11434/api/tags"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 30s
+
+  # Jarvis Python Backend
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: jarvis-backend
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend:/app
+      - backend_data:/app/data
+      - piper_models:/root/.local/share/piper
+    environment:
+      - OLLAMA_BASE_URL=http://ollama:11434
+      - DEBUG=false
+      - HOST=0.0.0.0
+      - PORT=8000
+    env_file:
+      - ./backend/.env
+    depends_on:
+      ollama:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+volumes:
+  ollama_data:
+    driver: local
+  backend_data:
+    driver: local
+  piper_models:
+    driver: local
